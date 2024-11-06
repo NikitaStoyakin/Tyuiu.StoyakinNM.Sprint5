@@ -7,7 +7,7 @@ namespace Tyuiu.StoyakinNM.Sprint5.Task0.V13.Test
         [TestMethod]
         public void ValidSaveToFileTextData()
         {
-            string path = @"C:\Users\Никита\source\repos\Tyuiu.StoyakinNM.Sprint5\Tyuiu.StoyakinNM.Sprint5.Task0.V13\bin\Debug\net8.0\OutPutFileTask0.txt";
+            string path = Path.Combine(Path.GetTempPath(), "OutPutFileTask0.txt");
 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
