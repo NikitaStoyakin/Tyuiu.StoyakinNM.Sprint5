@@ -25,8 +25,7 @@ namespace Tyuiu.StoyakinNM.Sprint5.Task5.V13.Lib
                     }
                 }
             }
-
-            double result = res / 2;
+            double result = res / -2;
             return result;
         }
     }
